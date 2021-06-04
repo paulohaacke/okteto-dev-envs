@@ -2,5 +2,5 @@
 
 echo "Building test"
 
-docker tag $IMAGE_NAME $DOCKER_REPO:$DOCKER_TAG
-docker push $DOCKER_REPO:$DOCKER_TAG
+docker tag $IMAGE_NAME $DOCKER_REPO:teste
+docker push $DOCKER_REPO:teste
