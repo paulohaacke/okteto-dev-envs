@@ -1,6 +1,0 @@
-#!/bin/bash
-
-echo "Building test"
-
-docker tag $IMAGE_NAME $DOCKER_REPO:teste
-docker push $DOCKER_REPO:teste
