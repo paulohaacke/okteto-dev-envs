@@ -1,6 +1,9 @@
 FROM python:3-buster
 
-RUN apt-get update && apt-get install -y git vim \
+RUN apt-get update && apt-get install -y 
+  git \
+  vim \
+  jq \
   && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /workspace
