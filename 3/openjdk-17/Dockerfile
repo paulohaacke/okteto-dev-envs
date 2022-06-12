@@ -11,3 +11,4 @@ WORKDIR /workspace
 COPY bashrc /root/.bashrc
 
 CMD ["bash"]
+
