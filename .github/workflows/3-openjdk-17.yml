@@ -1,7 +1,7 @@
 name: Publish 3-openjdk-17 Docker Image
 on:
   push:
-    branches: [python]
+    branches: [maven]
     paths: ['3/openjdk-17/**']
 jobs:
   push_to_registry:
@@ -20,4 +20,4 @@ jobs:
         with:
           push: true
           context: '3/openjdk-17'
-          tags: paulohaacke/okteto-dev-maven:latest, paulohaacke/okteto-dev-maven:3-buster
+          tags: paulohaacke/okteto-dev-maven:latest, paulohaacke/okteto-dev-maven:3-openjdk-17
